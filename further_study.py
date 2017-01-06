@@ -79,6 +79,8 @@ def custom_extend(input_list, second_list):
         True
 
     """
+    for each in second_list:
+        input_list[-1:] = [input_list[-1], each]
 
     pass
 
