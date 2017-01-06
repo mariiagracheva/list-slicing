@@ -98,8 +98,11 @@ def custom_insert(input_list, index, value):
         >>> months == ['Jan', 'Feb', 'Mar']
         True
 
-    """
+     """
+    # for each in input_list[index:]:
+    #     input_list[index:] = [value, each]
 
+    input_list[index:index] = [value]
     pass
 
 
